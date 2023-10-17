@@ -60,5 +60,5 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           # 给清单打上多个标签
           tags: |
-            nuanxinqing123/qltools-pro:latest
-            nuanxinqing123/qltools-pro:${{github.event.inputs.tags}}
+            202god/qltools-pro:latest
+            202god/qltools-pro:${{github.event.inputs.tags}}
